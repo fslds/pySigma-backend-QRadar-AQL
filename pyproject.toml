@@ -8,6 +8,7 @@ repository = "https://github.com/IBM/pySigma-backend-QRadar-AQL"
 packages = [
     { include = "sigma" }
 ]
+exclude = ["sigma/pySigma_QRadar_base/poetry.lock", "sigma/pySigma_QRadar_base/pyproject.toml"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
